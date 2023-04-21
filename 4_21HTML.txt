@@ -1,0 +1,133 @@
+04-21(목)
+01 
+<!--  
+        form : 사용자로부터 특정정보를 받아 서버로 전달하는데 사용되는 태그
+        action속성 : 전달받은 서버 페이지(URL)
+        method속성 : 서버로 요청시 전달하는 방식
+        get : 사용자정보를 Query string으로 전달(rlqhsrkqt)
+        post : 사용자정보를 Request body(payload)로 전달
+    
+    -->
+
+    <form action="test.jsp" method="get">
+        <div>
+            <label for="username">이름 : </label><input type ="test" name="unsername" id="unername" />
+        </div>
+        <div>
+        <label for="age">나이 : </label> <input type ="test" name="age" id="age"/>
+        </div>
+        <div>
+        <label for="age">주소 : </label> <input type ="test" name="addr"/>
+        </div>
+        <div>
+        <label for="age">메일 : </label> <input type ="submit" name="usermail" /> 
+        </div>
+        <div>
+        <label for="age">성별 : </label> <input type ="radio" name="gender" value="man"> 남 <input type ="radio" name="gender" value="woman"> 여
+        </div>
+        <div>
+            <input type="checkbox" name="hobby" value="climing" >등산<br/>
+            <input type="checkbox" name="hobby" value="golf">골프<br/>
+            <input type="checkbox" name="hobby" value="swimming">수영<br/>
+            <div>
+                </div>
+                <div>
+            메모 :
+             </div>
+             <div>
+            <textarea cols="15" rows="15"></textarea>
+         </div>
+            phone
+            <div>
+                <select name="ph--1n">
+                    <option value="053">053</option>
+                    <option value="055">055</option>
+                    <option value="010" selected>010</option>
+                    <span> - </span>
+                    <input type="tel">
+                    <span> - </span>
+                    <input type="tel">
+                </select>
+             </div>
+        </div>
+       
+       
+        <input type="submit" />
+
+02
+<style>
+        front-size:0.6rem;
+    </style>
+</head>
+<br>
+<form action="test.JSP"> 
+   <div> 
+    Name : <input type="text" name="username">
+</div>
+     <div>
+        Title : <input type="text" name="title"> 
+       </div>
+    
+    <div>contents</div>
+    
+       <div>
+        <textarea name="contents" id="contents" cols="15" rows="15"></textarea>
+      </div>
+       <div>
+    URL : <input type="text" name="URL">
+      </div>
+      <div>
+        Email :<input type="text" name="Email">
+      </div>
+
+    <input type="submit" name="저장">
+
+</form> 
+
+
+
+</body>
+</html>
+
+03
+<style>
+    form{
+        margin:100px auto;    
+    }
+</style>
+</head>
+<body>
+</style>
+</head>
+<br>
+<form action="test.JSP" class="w-25 p-3" margin="100px"auto> 
+   <div> 
+    Name : <input class="form-control" type="text" name="username">
+</div>
+     <div>
+        Title : <input class="form-control" type="text" name="title"> 
+       </div>
+    
+    <div>contents</div>
+    
+       <div>
+        <textarea class="form-control" name="contents" id="contents" cols="15" rows="15"></textarea>
+      </div>
+       <div>
+    URL : <input class="form-control" type="text" name="URL">
+      </div>
+      <div>
+        Email :<input class="form-control" type="text" name="Email">
+      </div>
+      <button type="button" class="btn btn-warning">버튼</button>
+    
+
+</form> 
+
+
+
+</body>
+</html>
+</body>
+</html>
+
